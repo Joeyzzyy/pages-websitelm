@@ -11,7 +11,6 @@ export const exampleData = {
           buttonText: 'Get Started',
           title: 'AI Video Creation Tool',
           description: 'Quickly Generate Multilingual Marketing Videos',
-          desc: 'Support 40+ languages, auto-generate subtitles and voiceovers',
           videoUrl: "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
         }
       }
@@ -20,12 +19,12 @@ export const exampleData = {
     TitleSection: {
       order: 2,
       title: 'Title Section',
-      description: 'Display article or page main title and subtitle',
+      description: 'Display article or page main title and subTitle',
       recommendedPosition: 'Upper section, after Hero Section',
       filePath: 'src/components/common_components/title_section.js',
       props: {
         title: 'How to Improve Work Efficiency with AI',
-        subtitle: 'Explore AI Applications in Daily Work',
+        subTitle: 'Explore AI Applications in Daily Work',
         author: 'websitelm'
       }
     },
@@ -38,7 +37,7 @@ export const exampleData = {
       filePath: 'src/components/common_components/title-section-with-image.js',
       props: {
         title: 'AI Video Creation Platform',
-        subtitle: 'Transform your content into engaging videos with AI technology',
+        subTitle: 'Transform your content into engaging videos with AI technology',
         leftContent: {
           author: 'websitelm',
           publishDate: '2024-11-23',
@@ -95,7 +94,6 @@ export const exampleData = {
       recommendedPosition: 'Upper section, after other benefits sections',
       filePath: 'src/components/common_components/product-benefits-with-a-table.js',
       props: {
-        author: 'websitelm',
         leftContent: [
           {
             icon: '🎥',
@@ -121,7 +119,7 @@ export const exampleData = {
         rightContent: {
           icon: '🚀',
           title: 'Ready to Transform Your Video Marketing?',
-          subtitle: 'Join thousands of businesses using websitelm AI',
+          subTitle: 'Join thousands of businesses using websitelm AI',
           buttonText: 'Start Free Trial'
         }
       }
@@ -138,7 +136,7 @@ export const exampleData = {
         topContent: {
           emoji: '🚀',
           title: 'Why Choose websitelm AI',
-          subtitle: 'Professional AI Video Creation Platform'
+          subTitle: 'Professional AI Video Creation Platform'
         },
         bottomContent: [
           {
@@ -185,7 +183,7 @@ export const exampleData = {
         author: 'websitelm',
         topContent: {
           title: 'Transform Your Video Marketing',
-          subtitle: 'Create engaging videos in minutes with AI'
+          subTitle: 'Create engaging videos in minutes with AI'
         },
         bottomContent: [
           {
@@ -213,9 +211,10 @@ export const exampleData = {
       recommendedPosition: 'Mid section, after features',
       filePath: 'src/components/common_components/how-it-works-with-workflow.js',
       props: {
-        author: 'websitelm',
         topContent: {
+          icon: '🚀',
           title: 'How It Works',
+          subTitle: 'Transform your content into engaging videos with three simple steps',
           buttonText: 'Start Creating'
         },
         bottomContent: [
@@ -246,7 +245,7 @@ export const exampleData = {
         leftContent: {
           icon: '🚀',
           title: 'How Our AI Works',
-          subtitle: 'Transform your content into engaging videos with three simple steps',
+          subTitle: 'Transform your content into engaging videos with three simple steps',
           buttonText: 'Start Creating'
         },
         rightContent: [
@@ -279,7 +278,7 @@ export const exampleData = {
         author: 'websitelm',
         topContent: {
           title: 'Why Choose websitelm AI',
-          subtitle: 'Compare our features with traditional solutions',
+          subTitle: 'Compare our features with traditional solutions',
           companies: {
             competitor: 'Traditional',
             us: 'WebsiteLM'
@@ -697,7 +696,7 @@ export const exampleData = {
           },
           {
             question: 'How many languages are supported?',
-            answer: 'We support over 40 languages with automatic subtitle generation and AI voiceover capabilities, making it perfect for global marketing campaigns.'
+            answer: 'We support over 40 languages with automatic subTitle generation and AI voiceover capabilities, making it perfect for global marketing campaigns.'
           },
           {
             question: 'What makes websitelm different from traditional video tools?',
@@ -791,7 +790,7 @@ export const exampleData = {
         leftContent: {
           author: 'websitelm',
           title: 'Ready to Transform Your Video Marketing?',
-          subtitle: 'Join thousands of businesses already using websitelm AI',
+          subTitle: 'Join thousands of businesses already using websitelm AI',
         },
         rightContent: {
           buttonText: 'Get Started Free',

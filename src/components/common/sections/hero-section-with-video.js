@@ -33,11 +33,6 @@ const HeroSectionWithVideo = ({ data }) => {
               {topContent.description}
             </p>
           )}
-          {topContent.desc && (
-            <p className={`text-center ${fontStyles.paragraph.fontSize} ${fontStyles.paragraph.color} mt-2 max-w-2xl mx-auto`}>
-              {topContent.desc}
-            </p>
-          )}
           
           <div className="mt-8">
             <CustomButton 
